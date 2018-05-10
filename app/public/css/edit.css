@@ -1,0 +1,104 @@
+
+header{
+  width: 100%;
+  height: 40px;
+  background: #231F1C;
+}
+header .title{
+  color: #fff;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: '微软雅黑';
+  margin-left: 20px;
+}
+header .icon{
+  vertical-align: baseline;
+}
+/*按钮样式*/
+.btn{
+  color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  border-radius: 4px;
+  height: 32px;
+  outline: none;
+  font-weight: 400;
+  margin-top: 4px;
+  cursor: pointer
+}
+header .btn-save{
+  width: 60px;
+  border: 1px solid #fff;
+  background: transparent;
+  margin-right: 15px;
+  float: right;
+}
+.btn-save:hover{
+  color:#faad14;
+  border-color:#faad14; 
+}
+header .btn-finish{
+  width: 80px;
+  border: 1px solid #faad14;
+  background: #faad14;
+  margin-right: 15px;
+  float: right;
+}
+.btn-finish:hover{
+  background: #ffc53d;
+}
+
+main{
+  margin-top: 1vh;
+  padding-right: 20em;
+}
+
+.template{
+  float: left;
+  width: 100%;
+  background: #f4f4f4;
+  overflow: auto;
+  height: 93.6vh;
+}
+/*编辑页面元素*/
+.edit-container{
+  width: 20em;
+  margin-right:-20em;
+  float: right;
+  background: #fff;
+  overflow: hidden;
+  height: 92.6vh;
+}
+.edit{
+  margin-top: 15px;
+}
+.edit-item-type input {
+  width: 250px;
+  height: 1.6em;
+  font-size: inherit;
+  border:1px solid #a29e9e;
+  border-radius: 4px;
+  margin:10px auto;
+  margin-left: 10px;
+  outline: none;
+}
+.edit-item-type input:focus{
+  border:1px solid #faad14;
+}
+.edit-item-type textarea{
+  width: 250px;
+  font-size: inherit;
+  border:1px solid #a29e9e;
+  border-radius: 4px;
+  margin:10px auto;
+  margin-left: 10px;
+  outline: none;
+}
+.edit-item-type textarea:focus{
+  border:1px solid #faad14;
+}
+.edit-item-title{
+  margin-left: 10px;
+  font-size: 15px;
+  color: #666;
+}

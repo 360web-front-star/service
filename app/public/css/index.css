@@ -1,0 +1,116 @@
+
+body {
+  background-color: #EEEEEE;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  background-color:#231F1C;
+}
+nav .icon{
+  vertical-align: baseline;
+}
+nav .active{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 40px; 
+  margin-left: 20px; 
+}
+nav .active:hover{
+
+}
+#background-pic{
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+#container #start a{
+  position:absolute;
+  top: 64%;
+  left: 12%;
+  width: 170px;
+  height: 48px;
+  border-radius: 4px;
+  background: #faad14;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+  font-size: 20px;
+}
+#container #start a:hover{
+  background: #ffc53d;
+}
+#container #example-anc{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 85%;
+  left: 47%;
+}
+#templet_lib {
+  width: 100%;
+  padding:0 12%;
+  margin-top: -65px;
+  box-sizing: border-box;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#templet_lib .templet {
+  margin-top: 25px;
+  width: 300px;
+  height: 350px;
+  background:#fff;
+  position: relative;
+  box-shadow: 0 6px 12px rgba(0,0,0,.12);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+#templet_lib .templet:hover{
+  margin-top: 20px;
+}
+.templet .templet_icon{
+  width: 250px;
+  height: 140px;
+  position: relative;
+  top:10%;
+  left: 50%;
+  transform: translate(-50%,0);
+  border: 1px solid #eee;
+}
+.description{
+  width: 250px;
+  height:100px;
+  position: relative;
+  top:25%;
+  left: 50%;
+  transform: translate(-50%,0);
+  border: 1px solid #eee;
+}
+.description .description-title{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  
+}
+.description .description-content{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer{
+  margin: 50px 0 20px 0;
+  text-align: center;
+  color: gray;
+}
+
