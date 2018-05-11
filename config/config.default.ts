@@ -34,7 +34,7 @@ export default (appInfo: EggAppConfig) => {
     origin: "*",
     allowMethods: "GET,HEAD,PUT,POST,DELETE,PATCH"
   };
-  
+
   config.view = {
     mapping: {
       ".ejs": "ejs"
