@@ -30,6 +30,11 @@ export default (appInfo: EggAppConfig) => {
   // add your config here
   config.middleware = [];
 
+  config.cors = {
+    origin: "*",
+    allowMethods: "GET,HEAD,PUT,POST,DELETE,PATCH"
+  };
+  
   config.view = {
     mapping: {
       ".ejs": "ejs"
