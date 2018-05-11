@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>网站编辑</title>
-    <link rel="stylesheet" type="text/css" href="/public/css/edit.css">
     <link rel="stylesheet" type="text/css" href="/public/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/edit.css">
     <!--插入模版CSS-->
     <link rel="stylesheet" type="text/css" href="<%= data.style %>">
 </head>
+
 <body>
 <header id="header">
     <a class="icon" href="#">
-        <img src="/public/images/2.png" alt="logo" style="width: auto; height: 35px; margin-left: 10px">
+        <img src="/public/images/web-icon.png" alt="logo" style="width: auto; height: 35px; margin-left: 10px">
     </a>
     <span class="title">编辑网站</span>
-    <button class="btn btn-export" type="button">导 出</button>
-    <button class="btn btn-view" type="button">预 览</button>
+    <button class="btn btn-finish" type="button">生成网站</button>
 </header>
+
 <main class="container">
     <%- include('/templates/resume/template.ejs'); %>
     <!-- 编辑控制块 -->
@@ -29,6 +31,6 @@
 
 <!--插入模版JS-->
 <script src="<%= data.script %>"></script>
-
 </body>
+
 </html>

@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #22C3AA;
+}
+
 .item h1 {
   text-align:center;
   font-family: 'Microsoft YaHei UI';
@@ -13,7 +17,7 @@
 .resumeBg {
   position: relative;
   background-color: #22C3AA;
-  height: 93.6vh;
+  height: 94.6vh;
 }
 
 /*垂直水平居中*/

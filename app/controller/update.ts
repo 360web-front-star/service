@@ -15,5 +15,8 @@ export default class UpdateController extends Controller {
   }
 
   public async image() {
+    const { ctx } = this;
+    const imgSrc = await ctx.service.update.image();
+    ctx.body = imgSrc;
   }
 }

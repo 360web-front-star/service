@@ -1,23 +1,24 @@
 <!-- 修改页面块 -->
 <article class="template resumeBg tep-name-resume">
-  <!--.......................................这里开始........................................................ -->
-  <div data-edit='{
+    <!--.......................................这里开始........................................................ -->
+    <div data-edit='{
                     "edit-avatar-image": "头像",
                     "edit-homeText1-text": "名字",
                     "edit-homeText2-text": "个性签名",
                     "edit-homeText3-text": "职位",
                     "edit-homeGit-link": "github地址"
                   }'
-       class="item active" id="home">
-    <div class="avatar">
-      <img class="edit-avatar-image" src="/public/images/timg.jpg" alt="头像" style="width: 100%; height: 100%">
+         class="item active" id="home">
+        <div class="avatar">
+            <img class="edit-avatar-image" src="/public/images/timg.jpg" alt="头像"
+                 style="width: 100%; height: 100%; object-fit: cover">
+        </div>
+        <div class="text edit-homeText1-text" id="name">你的名字</div>
+        <div class="text edit-homeText2-text" id="motto">这是一条没有个性的个性签名</div>
+        <div class="text edit-homeText3-text" id="job">前端工程师</div>
+        <div class="text edit-homeText4-text" id="ownPage"><a class="edit-homeGit-link" href="#">更多内容请移步个人主页</a></div>
     </div>
-    <div class="text edit-homeText1-text"  id="name">你的名字</div>
-    <div class="text edit-homeText2-text" id="motto">这是一条没有个性的个性签名</div>
-    <div class="text edit-homeText3-text"  id="job">前端工程师</div>
-    <div class="text edit-homeText4-text"  id="ownPage"><a class="edit-homeGit-link" href="#">更多内容请移步个人主页</a></div>
-  </div>
-  <div data-edit='{
+    <div data-edit='{
                     "edit-skillItem1-text": "技能1",
                     "edit-skillItem2-text": "技能2",
                     "edit-skillItem3-text": "技能3",
@@ -31,47 +32,49 @@
                     "edit-skillItem11-text": "技能11",
                     "edit-skillItem12-text": "技能12"
                   }'
-       class="item" id="skill">
-    <h1>
-      擅长技术
-    </h1>
-    <div>
-      <span class="skillItem edit-skillItem1-text">技能1</span>
-      <span class="skillItem edit-skillItem2-text" style="background-color: #107B6A">技能2</span>
+         class="item" id="skill">
+        <h1>
+            擅长技术
+        </h1>
+        <div>
+            <span class="skillItem edit-skillItem1-text">技能1</span>
+            <span class="skillItem edit-skillItem2-text" style="background-color: #107B6A">技能2</span>
+        </div>
+        <div>
+            <span class="skillItem edit-skillItem3-text" style="background-color: #107B6A">技能3</span>
+            <span class="skillItem edit-skillItem4-text">技能4</span>
+            <span class="skillItem edit-skillItem5-text" style="background-color: #15927F">技能5</span>
+            <span class="skillItem edit-skillItem6-text">技能6</span>
+            <span class="skillItem edit-skillItem7-text">技能7</span>
+        </div>
+        <div>
+            <span class="skillItem edit-skillItem8-text" style="background-color: #15927F">技能8</span>
+            <span class="skillItem edit-skillItem9-text" style="background-color: #15927F">技能9</span>
+            <span class="skillItem edit-skillItem10-text">技能10</span>
+        </div>
+        <div>
+            <span class="skillItem edit-skillItem11-text">技能11</span>
+            <span class="skillItem edit-skillItem12-text" style="background-color: #107B6A">技能12</span>
+        </div>
     </div>
-    <div>
-      <span class="skillItem edit-skillItem3-text" style="background-color: #107B6A">技能3</span>
-      <span class="skillItem edit-skillItem4-text">技能4</span>
-      <span class="skillItem edit-skillItem5-text" style="background-color: #15927F">技能5</span>
-      <span class="skillItem edit-skillItem6-text">技能6</span>
-      <span class="skillItem edit-skillItem7-text">技能7</span>
-    </div>
-    <div>
-      <span class="skillItem edit-skillItem8-text" style="background-color: #15927F">技能8</span>
-      <span class="skillItem edit-skillItem9-text" style="background-color: #15927F">技能9</span>
-      <span class="skillItem edit-skillItem10-text">技能10</span>
-    </div>
-    <div>
-      <span class="skillItem edit-skillItem11-text">技能11</span>
-      <span class="skillItem edit-skillItem12-text" style="background-color: #107B6A">技能12</span>
-    </div>
-  </div>
-  <div data-edit='{
+    <div data-edit='{
                     "edit-text1-text": "学校",
                     "edit-text2-text": "学院和专业",
                     "edit-text3-text": "实验室",
                     "edit-text4-text": "毕业时间",
                     "edit-text5-text": "研究方向"
                   }'
-       class="item" id="education">
-    <h1>教育背景</h1>
-    <div class="text edit-text1-text" style="font-weight: bold; font-size: 22px; margin-top: 40px">上海交通大学 本科及硕士研究生</div>
-    <div class="text edit-text2-text" style="font-size: 20px; margin-top: 20px; color: #AEE2D9">软件学院 软件工程专业</div>
-    <div class="text edit-text3-text" style="margin-top: 20px; font-size: 28px; font-weight: bold">数字艺术媒体实验室</div>
-    <div class="text edit-text4-text" style="font-size: 20px; margin-top: 20px; color: #AEE2D9">2019年6月1日毕业</div>
-    <div class="text edit-text5-text" style="font-size: 20px; margin-top: 20px; color: #AEE2D9">研究课题与人脸识别、卡通画生成相关</div>
-  </div>
-  <div data-edit='{
+         class="item" id="education">
+        <h1>教育背景</h1>
+        <div class="text edit-text1-text" style="font-weight: bold; font-size: 22px; margin-top: 40px">上海交通大学 本科及硕士研究生
+        </div>
+        <div class="text edit-text2-text" style="font-size: 20px; margin-top: 20px; color: #AEE2D9">软件学院 软件工程专业</div>
+        <div class="text edit-text3-text" style="margin-top: 20px; font-size: 28px; font-weight: bold">数字艺术媒体实验室</div>
+        <div class="text edit-text4-text" style="font-size: 20px; margin-top: 20px; color: #AEE2D9">2019年6月1日毕业</div>
+        <div class="text edit-text5-text" style="font-size: 20px; margin-top: 20px; color: #AEE2D9">研究课题与人脸识别、卡通画生成相关
+        </div>
+    </div>
+    <div data-edit='{
                     "edit-proName1-text": "项目1名称",
                     "edit-des1-text": "项目1描述",
                     "edit-proLink1-link": "项目1链接",
@@ -83,47 +86,47 @@
                     "edit-proLink3-link": "项目3链接",
                     "edit-gitLink-link": "Github地址"
                   }'
-       class="item" id="project">
-    <h1>项目经验</h1>
-    <div class="pro">
-      <div class="icon">
-        <img src="/public/images/icon1.png" alt="icon1">
-      </div>
-      <div class="description">
-        <h2 class="proName edit-proName1-text"><a class="edit-proLink1-link" href="#">Polyvia</a></h2>
-        <span class="des edit-des1-text">Low-poly 风格视频、图像处理。</span>
-      </div>
+         class="item" id="project">
+        <h1>项目经验</h1>
+        <div class="pro">
+            <div class="icon">
+                <img src="/public/images/icon1.png" alt="icon1">
+            </div>
+            <div class="description">
+                <h2 class="proName edit-proName1-text"><a class="edit-proLink1-link" href="#">Polyvia</a></h2>
+                <span class="des edit-des1-text">Low-poly 风格视频、图像处理。</span>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="icon">
+                <img src="/public/images/icon2.png" alt="icon2">
+            </div>
+            <div class="description">
+                <h2 class="proName edit-proName2-text"><a class="edit-proLink2-link" href="#">jWebAudio</a></h2>
+                <span class="des edit-des2-text">为网页游戏定制的Web Audio库,支持纯JavaScript</span>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="icon">
+                <img src="/public/images/icon3.png" alt="icon3">
+            </div>
+            <div class="description">
+                <h2 class="proName edit-proName3-text"><a class="edit-proLink3-link" href="#">Bian Gua</a></h2>
+                <span class="des edit-des3-text">CSS 和 JavaScript 制作的易经六十四卦变卦特效。</span>
+            </div>
+        </div>
+
+        <div class="footer">更多精彩内容请移步<a class="gitLink" href="#">GitHub</a></div>
     </div>
-    <div class="pro">
-      <div class="icon">
-        <img src="/public/images/icon2.png" alt="icon2">
-      </div>
-      <div class="description">
-        <h2 class="proName edit-proName2-text"><a class="edit-proLink2-link" href="#">jWebAudio</a></h2>
-        <span class="des edit-des2-text">为网页游戏定制的Web Audio库,支持纯JavaScript</span>
-      </div>
-    </div>
-    <div class="pro">
-      <div class="icon">
-        <img src="/public/images/icon3.png" alt="icon3">
-      </div>
-      <div class="description">
-        <h2 class="proName edit-proName3-text"><a class="edit-proLink3-link" href="#">Bian Gua</a></h2>
-        <span class="des edit-des3-text">CSS 和 JavaScript 制作的易经六十四卦变卦特效。</span>
-      </div>
-    </div>
-
-    <div class="footer">更多精彩内容请移步<a class="gitLink" href="#">GitHub</a></div>
-  </div>
 
 
-  <!--小圆点-->
-  <ul class="dotsBox">
-    <li class="dot dotActive"></li>
-    <li class="dot"></li>
-    <li class="dot"></li>
-    <li class="dot"></li>
-  </ul>
+    <!--小圆点-->
+    <ul class="dotsBox">
+        <li class="dot dotActive"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+    </ul>
 
-  <!--............................................结尾................................................... -->
+    <!--............................................结尾................................................... -->
 </article>

@@ -1,0 +1,255 @@
+*{margin:0;padding:0;font-family: '微软雅黑';}
+
+li{list-style:none;cursor: pointer;}
+
+img{vertical-align:top;border:none;}
+header{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	background-color: #e9edf0;
+}
+.commonWidth{
+	width: 90%;
+	margin:0 auto;
+}
+header>ul{
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+header>ul>li{
+	height: 40px;
+	line-height: 40px;
+	flex:1 1;
+	margin:0 15px;
+	color:rgb(51,153,204);
+	font-size: 14px;
+}
+nav{
+	background-color: white;
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+nav>.wrap{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	height: 80px;
+	z-index:100;
+	position: absolute;
+}
+nav>.wrap>div{
+	color: RoyalBlue;
+	flex:1 1 10%;
+	text-align: center;
+	padding: 5px;
+	border-radius: 75px;
+}
+nav>.wrap>div>img{width:100%;height:100%;border-radius: 75px;}
+nav>.wrap>ul{
+	display: flex;
+	justify-content: center;
+	flex:1 1 80%;
+}
+nav>.wrap>ul>li{
+	flex:1 1;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	transition: color 0.5s;
+}
+nav>.wrap>ul>li:hover{
+	color: rgb(51,153,204);
+}
+nav:before{
+	content: " ";
+	border-radius: 50%;
+	height: 130px;
+	width: 130px;
+	position: absolute;
+	bottom: -25px;
+	left: -15px;
+	background-color: white;
+	z-index: 1;
+}
+.banner{
+	height: 700px;
+	background-color: lightblue;
+}
+.slider-list{
+	width: 100%;
+	height: 100%;
+	background-color:#e9edf0;;
+	position: relative;
+}
+.slider-list ul{
+	width: 100%;
+	height: 100%;	
+  	list-style-type:none;
+  	position: relative;
+  	padding: 0;
+  	margin: 0;
+}
+.slider-list>ul>li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.slider-list>ul>li>img{
+	width: 100%;
+	height: 100%;
+}
+.slider-list__item,
+.slider-list__item--selected{
+  position: absolute;
+  transition: opacity 1s;
+  opacity: 0;
+  text-align: center;
+}
+.slider-list__item--selected{
+  transition: opacity 2s;
+  opacity: 1;	
+}
+.tit_box{
+	/*width: 100%;*/
+	height: 50px;
+	line-height: 50px;
+	color: rgb(51,153,204);
+	background-color: #e9edf0;
+	text-align: center;
+	box-shadow: 0px 2px 5px 2px #e9edf0;
+}
+.tit_box>h1{font-size: 1em;letter-spacing: 4px;}
+.tabs_wrap{
+	/*width: 100%;*/
+	display: flex;
+	justify-content: center;
+}
+.tabs{
+	flex: 0 0 80%;
+	height: 150px;
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+}
+.tabs>.img,.tabs>.text,.tabs>.sticky{
+	background-color: lightblue;
+	height: 150px;
+	flex:1 1 30%;
+	margin:20px 20px;
+	border-radius:5px;
+	box-shadow: 0px 5px 15px 5px #ccc;
+}
+.img > img,.content>img{
+	width: 100%;
+	height: 100%;
+	border-radius:5px;
+}
+.img >img{
+	transition: all 0.5s ease-in;
+}
+.img > img:hover{
+	transform: scale(1.1);
+}
+.content_img{
+	/*width: 100%;*/
+	height: 350px;
+	margin-top: 80px;
+	position: relative;
+}
+.content_img>img{
+	width: 100%;
+	height: 100%;
+	
+}
+.content_img>.text{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:rgba(3,169,244,0.6);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.content_img>.text>.wrap{width:30%;margin:0 auto;}
+.content_img>.text>.wrap>h3{text-align: center;margin-top: 10px;}
+.content_img>.text>.wrap>p{text-align: center;}
+.sticky{
+	position: relative;
+}
+.content{
+	width: 100%;
+	height: 100%;
+}
+.mask{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0);
+	transition: all 0.5s ease-in;
+	border-radius:5px;
+	display: table;
+}
+.mask .text{
+	visibility: hidden;
+	color: white;
+	text-align: center;
+	display:table-cell;
+	vertical-align: middle;
+}
+.mask:hover{
+	background:rgba(0,0,0,0.8);
+}
+.mask:hover .text{
+	visibility: visible;
+}
+footer{
+	/*width: 100%;*/
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+footer .adress,footer .contact,footer .concern{
+	flex: 0 0 20%;
+	margin:10px;
+}
+footer .tit{
+	color: rgb(0, 0, 0); 
+	font-family: '宋体'; 
+	font-size: 12px;
+}
+footer .tit>span{
+	font-size: 18px; 
+	font-family: '微软雅黑';
+}
+footer .tit .line{
+	color:pink; 
+	line-height: 20px;
+}
+footer font{
+	color:#000;
+	font-size: 14px;
+}
+footer p>strong{
+	color: rgb(0, 0, 0); 
+	font-family: '宋体'; 
+	font-size: 14px;
+}
+footer .concern .icons{
+	display: flex;
+	justify-content: flex-start;
+}
+footer .concern .icons .icon{
+	flex:1 1;
+	margin:0 5px;
+}

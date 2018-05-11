@@ -1,17 +1,17 @@
 
-header{
+#header{
   width: 100%;
   height: 40px;
   background: #231F1C;
 }
-header .title{
+#header .title{
   color: #fff;
   line-height: 40px;
   font-size: 14px;
   font-family: '微软雅黑';
   margin-left: 20px;
 }
-header .icon{
+#header .icon{
   vertical-align: baseline;
 }
 /*按钮样式*/
@@ -26,30 +26,29 @@ header .icon{
   margin-top: 4px;
   cursor: pointer
 }
-header .btn-view{
+#header .btn-save{
   width: 60px;
   border: 1px solid #fff;
   background: transparent;
   margin-right: 15px;
   float: right;
 }
-.btn-view:hover{
+.btn-save:hover{
   color:#faad14;
   border-color:#faad14; 
 }
-header .btn-export{
+#header .btn-finish{
   width: 80px;
   border: 1px solid #faad14;
   background: #faad14;
   margin-right: 15px;
   float: right;
 }
-.btn-export:hover{
+.btn-finish:hover{
   background: #ffc53d;
 }
 
 main{
-  margin-top: 1vh;
   padding-right: 20em;
 }
 
@@ -58,7 +57,7 @@ main{
   width: 100%;
   background: #f4f4f4;
   overflow: auto;
-  height: 93.6vh;
+  height: 94.6vh;
 }
 /*编辑页面元素*/
 .edit-container{
@@ -66,14 +65,14 @@ main{
   margin-right:-20em;
   float: right;
   background: #fff;
-  overflow: hidden;
-  height: 92.6vh;
+  overflow: auto;
+  height: 94.6vh;
 }
 .edit{
   margin-top: 15px;
 }
 .edit-item-type input {
-  width: 250px;
+  width: 280px;
   height: 1.6em;
   font-size: inherit;
   border:1px solid #a29e9e;
@@ -86,7 +85,7 @@ main{
   border:1px solid #faad14;
 }
 .edit-item-type textarea{
-  width: 250px;
+  width: 280px;
   font-size: inherit;
   border:1px solid #a29e9e;
   border-radius: 4px;
