@@ -109,6 +109,14 @@ svg:hover{
   flex-wrap: wrap;
 }
 
+#templet_lib a {
+  text-decoration: none;
+}
+
+#templet_lib a :active p{
+  color: #000;
+}
+
 #templet_lib .templet {
   margin-top: 25px;
   width: 300px;
@@ -158,5 +166,9 @@ svg:hover{
   margin: 50px 0 20px 0;
   text-align: center;
   color: gray;
+}
+
+.description-title, .description-content{
+  color: #000;
 }
 

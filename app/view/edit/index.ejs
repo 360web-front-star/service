@@ -20,7 +20,11 @@
 </header>
 
 <main class="container">
-    <%- include('/templates/resume/template.ejs'); %>
+    <% if (data.type === "commerce"){%>
+        <%- include("/templates/commerce/commerce.ejs") %>
+    <%} else if(data.type === "resume"){%>
+      <%- include("/templates/resume/resume.ejs") %>
+    <%}%>
     <!-- 编辑控制块 -->
     <aside class="edit-container">
         <p class="edit"></p>
