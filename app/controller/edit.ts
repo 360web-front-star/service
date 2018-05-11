@@ -5,7 +5,6 @@ export default class HomeController extends Controller {
     const { ctx } = this;
 
     let type = ctx.request.query.template;
-    type = `/templates/${type}/template.ejs`;
 
     await ctx.render("edit/index.ejs", {
       data: {
