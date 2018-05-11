@@ -21,6 +21,7 @@
     "clean": "ets clean"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "egg": "^2.6.1",
     "egg-scripts": "^2.6.0",
     "egg-view-ejs": "^2.0.0"

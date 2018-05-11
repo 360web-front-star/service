@@ -26,25 +26,25 @@ header .icon{
   margin-top: 4px;
   cursor: pointer
 }
-header .btn-save{
+header .btn-view{
   width: 60px;
   border: 1px solid #fff;
   background: transparent;
   margin-right: 15px;
   float: right;
 }
-.btn-save:hover{
+.btn-view:hover{
   color:#faad14;
   border-color:#faad14; 
 }
-header .btn-finish{
+header .btn-export{
   width: 80px;
   border: 1px solid #faad14;
   background: #faad14;
   margin-right: 15px;
   float: right;
 }
-.btn-finish:hover{
+.btn-export:hover{
   background: #ffc53d;
 }
 

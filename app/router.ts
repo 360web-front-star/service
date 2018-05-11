@@ -5,4 +5,6 @@ export default (app: Application) => {
 
   router.get("/", controller.index.index);
   router.get("/edit", controller.edit.index);
+  router.post("/update/html", controller.update.html);
+  router.post("/update/image", controller.update.image);
 };

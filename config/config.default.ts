@@ -16,6 +16,13 @@ export default (appInfo: EggAppConfig) => {
     appInfo.name
   }`;
 
+  config.security = {
+    csrf: {
+      enable: false
+    }
+  };
+  config.baseUrl = "localhost:7001";
+
   // override config from framework / plugin
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + "_1525947350515_3540";
@@ -25,7 +32,7 @@ export default (appInfo: EggAppConfig) => {
 
   config.view = {
     mapping: {
-      ".html": "ejs"
+      ".ejs": "ejs"
     }
   };
 
